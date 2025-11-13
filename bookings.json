@@ -1,0 +1,32 @@
+[
+    {
+        "origin": "DEL",
+        "destination": "BOM",
+        "date": "2025-11-13",
+        "price": 93.21
+    },
+    {
+        "origin": "DEL",
+        "destination": "BOM",
+        "date": "2025-11-13",
+        "price": 93.21
+    },
+    {
+        "origin": "PAT",
+        "destination": "GOI",
+        "date": "2025-11-13",
+        "price": 85.06
+    },
+    {
+        "origin": "CDG",
+        "destination": "LHR",
+        "date": "2025-11-14",
+        "price": 129.47
+    },
+    {
+        "origin": "BOM",
+        "destination": "LHR",
+        "date": "2025-11-14",
+        "price": 192.56
+    }
+]
