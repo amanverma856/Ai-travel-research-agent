@@ -1,0 +1,4 @@
+# Ignore environment files and local data
+.env
+__pycache__/
+bookings.json
