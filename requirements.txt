@@ -1,6 +1,8 @@
 openai
 langchain
+langchain-groq
 duckduckgo-search
 streamlit
 python-dotenv
 requests
+fpdf2

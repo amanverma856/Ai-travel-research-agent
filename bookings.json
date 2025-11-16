@@ -1,32 +1,56 @@
 [
     {
-        "origin": "DEL",
-        "destination": "BOM",
-        "date": "2025-11-13",
-        "price": 93.21
+        "id": "984BF603",
+        "origin": "PATNA",
+        "destination": "BENGALURU",
+        "date": "2024-11-17",
+        "airline": "IndiGo",
+        "price": 5500,
+        "time": "2025-11-16 12:53:45"
     },
     {
-        "origin": "DEL",
-        "destination": "BOM",
-        "date": "2025-11-13",
-        "price": 93.21
+        "id": "831E3896",
+        "origin": "PATNA",
+        "destination": "BENGALURU",
+        "date": "2024-11-17",
+        "airline": "IndiGo",
+        "price": 5500,
+        "time": "2025-11-16 12:55:40"
     },
     {
-        "origin": "PAT",
-        "destination": "GOI",
-        "date": "2025-11-13",
-        "price": 85.06
+        "id": "DD48046B",
+        "origin": "PATNA",
+        "destination": "BENGALURU",
+        "date": "2024-11-17",
+        "airline": "IndiGo",
+        "price": 5500,
+        "time": "2025-11-16 12:57:43"
     },
     {
-        "origin": "CDG",
-        "destination": "LHR",
-        "date": "2025-11-14",
-        "price": 129.47
+        "id": "695A3096",
+        "origin": "PATNA",
+        "destination": "BENGALURU",
+        "date": "2024-12-17",
+        "airline": "IndiGo",
+        "price": 5500,
+        "time": "2025-11-16 13:13:27"
     },
     {
-        "origin": "BOM",
-        "destination": "LHR",
-        "date": "2025-11-14",
-        "price": 192.56
+        "id": "C959F0D9",
+        "origin": "PATNA",
+        "destination": "BENGALURU",
+        "date": "2024-11-17",
+        "airline": "IndiGo",
+        "price": 5500,
+        "time": "2025-11-16 13:21:40"
+    },
+    {
+        "id": "FEF48806",
+        "origin": "USA",
+        "destination": "INDIA",
+        "date": "2024-11-17",
+        "airline": "IndiGo",
+        "price": 5500,
+        "time": "2025-11-16 13:35:32"
     }
 ]
