@@ -1,17 +1,17 @@
-# ✈️ AI Travel Booking Agent
+#  AI Travel Booking Agent
 
 A fully functional AI-powered travel booking agent built with Streamlit, Groq LLM (llama-3.3-70b-versatile), and PDF ticket generation.
 
-## 🎯 Features
+##  Features
 
-- ✅ **Groq LLM Integration** - Powered by llama-3.3-70b-versatile for intelligent flight booking
-- ✅ **Streamlit UI** - Beautiful and intuitive web interface
-- ✅ **PDF Ticket Generator** - Automatic PDF generation for confirmed bookings
-- ✅ **Local JSON Storage** - All bookings saved locally in `bookings.json`
-- ✅ **View My Bookings** - Easy access to all your booking history
-- ✅ **Floating Chat Assistant** - Interactive AI assistant in the sidebar for travel help
+-  **Groq LLM Integration** - Powered by llama-3.3-70b-versatile for intelligent flight booking
+-  **Streamlit UI** - Beautiful and intuitive web interface
+-  **PDF Ticket Generator** - Automatic PDF generation for confirmed bookings
+-  **Local JSON Storage** - All bookings saved locally in `bookings.json`
+-  **View My Bookings** - Easy access to all your booking history
+-  **Floating Chat Assistant** - Interactive AI assistant in the sidebar for travel help
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -64,7 +64,7 @@ A fully functional AI-powered travel booking agent built with Streamlit, Groq LL
    - "I need a flight from Delhi to Mumbai on 2025-12-25"
    - "Flight from Bangalore to Chennai today"
 
-2. Click **"🔍 Search & Book"** button
+2. Click **" Search & Book"** button
 
 3. The AI will extract flight details and show available flights
 
@@ -83,7 +83,7 @@ A fully functional AI-powered travel booking agent built with Streamlit, Groq LL
 
 ### Viewing Your Bookings
 
-- Click **"📜 View My Bookings"** to see all your confirmed bookings
+- Click **" View My Bookings"** to see all your confirmed bookings
 - Download PDF tickets for any previous booking
 - View booking details including:
   - Booking ID
@@ -92,7 +92,7 @@ A fully functional AI-powered travel booking agent built with Streamlit, Groq LL
   - Airline
   - Price
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai_research_agent/
@@ -103,7 +103,7 @@ ai_research_agent/
 └── README.md            # This file
 ```
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### Technologies Used
 
@@ -121,7 +121,7 @@ ai_research_agent/
 - `generate_pdf()` - Creates PDF ticket for confirmed bookings
 - `get_chat_response()` - Handles chat assistant interactions
 
-## 🎨 Features in Detail
+##  Features in Detail
 
 ### Natural Language Processing
 The app uses Groq's llama-3.3-70b-versatile model to understand natural language queries and extract:
@@ -152,20 +152,20 @@ All bookings are stored in `bookings.json` with the following structure:
 }
 ```
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 Create a `.env` file with:
 ```env
 GROQ_API_KEY=your_api_key_here
 ```
 
-## 📝 Notes
+##  Notes
 
 - The current implementation uses dummy flight data. To integrate with real flight APIs, modify the `get_dummy_flights()` function.
 - Bookings are stored locally in JSON format. For production use, consider using a database.
 - The chat assistant maintains conversation context for the last 5 messages.
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 **Issue: "GROQ_API_KEY not found"**
 - Make sure you've created a `.env` file with your API key
@@ -178,7 +178,7 @@ GROQ_API_KEY=your_api_key_here
 **Issue: PDF generation fails**
 - Ensure `fpdf2` is installed: `pip install fpdf2`
 
-## 🚧 Future Enhancements
+##  Future Enhancements
 
 - Integration with real flight booking APIs (Amadeus, Skyscanner, etc.)
 - Hotel booking capabilities
@@ -187,14 +187,14 @@ GROQ_API_KEY=your_api_key_here
 - Payment gateway integration
 - Database storage instead of JSON
 
-## 📄 License
+##  License
 
 This project is open source and available for educational purposes.
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
 
 ---
 
-**Built with ❤️ using Streamlit, Groq LLM, and FPDF**
+**Built with using Streamlit, Groq LLM, and FPDF**
