@@ -402,7 +402,8 @@ def display_flights(flights, origin, destination, date):
             with col2:
                 st.write(f"**₹{price}**")
             with col3:
-                if st.button(f"Book Now", key=f"book_{idx}_{airline}_{price}_{date}"):
+                if st.button("Book Now", key=f"book_{idx}"):
+
                     with st.spinner("Saving your booking..."):
                         try:
                             booking = save_booking(origin, destination, date, airline, price)
