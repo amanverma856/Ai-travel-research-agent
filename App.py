@@ -379,7 +379,7 @@ def process_booking(query):
         st.warning("No flights available for this route.")
         return
 
-    # Store flights in session state so they persist after rerun
+    # Store flights only
     st.session_state.current_flights = flights
 
     display_flights(flights, origin, destination, date)
