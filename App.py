@@ -20,7 +20,7 @@ def test_api_key():
         return False, "API key not found. Please set GROQ_API_KEY in your .env file."
     
     try:
-        llm = ChatGroq(api_key=groq_key, model="llama-3.3-70b-versatile")
+        llm = ChatGroq(api_key=groq_key, model="openai/gpt-oss-120b")
         # Make a simple test call
         test_response = llm.invoke([{"role": "user", "content": "Say 'OK'"}])
         if test_response and test_response.content:
@@ -126,7 +126,7 @@ def get_chat_response(user_message, chat_history):
         return "❌ API Key Missing! Please set GROQ_API_KEY in your .env file. Get your key from: https://console.groq.com/"
     
     try:
-        llm = ChatGroq(api_key=groq_key, model="llama-3.3-70b-versatile")
+        llm = ChatGroq(api_key=groq_key, model="openai/gpt-oss-120b")
         
         system_prompt = """You are a helpful AI travel booking assistant. 
         Help users with:
@@ -168,7 +168,7 @@ def extract_flight_details(user_query):
         return None
     
     try:
-        llm = ChatGroq(api_key=groq_key, model="llama-3.3-70b-versatile")
+        llm = ChatGroq(api_key=groq_key, model="openai/gpt-oss-120b")
 
         messages = [
             {
@@ -531,7 +531,7 @@ def view_bookings():
 # Main UI
 # ---------------------------------------------------------
 st.title("✈️ AI Travel Booking Agent")
-st.markdown("Powered by **Groq LLM (llama-3.3-70b-versatile)**")
+st.markdown("Powered by **Groq LLM (openai/gpt-oss-120b)**")
 
 # API Key Status Check
 if not groq_key:
