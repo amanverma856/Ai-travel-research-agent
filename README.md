@@ -1,22 +1,20 @@
-#  AI Travel Booking Agent
+# AI Travel Booking Agent
 
-A fully functional AI-powered travel booking agent built with Streamlit, Groq LLM (llama-3.3-70b-versatile), and PDF ticket generation.
+A fully functional AI-powered travel booking agent built with Streamlit, Groq API, and OpenAI's GPT-OSS 120B model, with PDF ticket generation.
 
-##  Features
+## Features
 
--  **Groq LLM Integration** - Powered by llama-3.3-70b-versatile for intelligent flight booking
--  **Streamlit UI** - Beautiful and intuitive web interface
--  **PDF Ticket Generator** - Automatic PDF generation for confirmed bookings
--  **Local JSON Storage** - All bookings saved locally in `bookings.json`
--  **View My Bookings** - Easy access to all your booking history
--  **Floating Chat Assistant** - Interactive AI assistant in the sidebar for travel help
+- **Groq API Integration**: Uses the `openai/gpt-oss-120b` model through GroqCloud for AI-powered travel assistance.
+- **Streamlit UI**: Interactive web interface for searching and booking flights.
+- **PDF Ticket Generator**: Generates PDF tickets for confirmed bookings.
+- **Local JSON Storage**: Stores bookings in `bookings.json`.
+- **View My Bookings**: Access booking history.
+- **Floating Chat Assistant**: AI-powered travel assistance in the sidebar.
 
-##  Quick Start
-
-### Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
-- Groq API Key ([Get one here](https://console.groq.com/))
+- Groq API key: https://console.groq.com/keys
 
 ### Installation
 
